@@ -1,0 +1,10 @@
+version: '3'
+
+vars:
+  container: ''
+
+tasks:
+  build:
+    cmds:
+      - docker compose up -d --build
+    desc: 'Build the container'

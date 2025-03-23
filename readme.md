@@ -10,3 +10,9 @@ O objetivo deste repositório é fornecer um ambiente php com apache em um conta
 - Rede
 - Volume para o diretório de trabalho (```app```)
 - CLI simples para gerenciamento de tarefas ([Taskfile](https://taskfile.dev))
+
+
+## Como subir o ambiente
+
+- Docker compose: ```docker compose up -d --build```
+- Task CLI: ```task build```
